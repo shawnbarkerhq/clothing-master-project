@@ -6,7 +6,7 @@ import "./header.styles.scss";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
 import { auth } from "../../firebase/firebase.utils";
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser }: any) => (
   <div className="header">
     <Link to="/" className="logo-container">
       <Logo className="logo" />
